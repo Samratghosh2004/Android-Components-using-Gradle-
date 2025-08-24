@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200sp"
+    android:layout_height="wrap_content"
+    android:background="#B8AA2F"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/baseline_cloud_download_24"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_margin="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message has been send!"
+            android:fontFamily="monospace"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press Me"
+        android:padding="20sp"
+        android:id="@+id/btn"/>
+
+</LinearLayout>
