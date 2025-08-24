@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    android:paddingBottom="10sp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:text="Press me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#04AA6D"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Press me2"
+        android:backgroundTint="#04DD6A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5px"
+        android:layout_toLeftOf="@id/btn"
+        android:text="Samrat Ghosh is my name. I am from Kalyani"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+
+-->
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:backgroundTint="#490404"
+        android:backgroundTintMode="add"
+        android:contentDescription="@string/About"
+        android:foreground="@drawable/baseline_perm_contact_calendar_24"
+        android:foregroundTint="#ECE4E4"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5mm"
+        android:text="@string/Aboutus"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4mm"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:layout_marginTop="7mm"
+        android:backgroundTint="#3DDB83"
+        android:text="Contact Us" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:layout_marginTop="7mm"
+            android:backgroundTint="#3DDB83"
+            android:text="Contact Us" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:layout_marginTop="7mm"
+            android:backgroundTint="#3DDB83"
+            android:text="Contact Us" />
+        <Button            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:layout_marginTop="7mm"
+            android:backgroundTint="#3DDB83"
+            android:text="Contact Us" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginBottom="15sp"
+        android:translationY="20sp"
+        app:cardBackgroundColor="#60E48B8B"
+        app:cardCornerRadius="5sp"
+        app:cardElevation="5dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
