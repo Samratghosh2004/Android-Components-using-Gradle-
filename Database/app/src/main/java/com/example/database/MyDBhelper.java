@@ -13,7 +13,7 @@ import java.util.jar.Attributes;
 
 public class MyDBhelper extends SQLiteOpenHelper {
 
-    static final String DATABASE_NAME = "Contact";
+    private static final String DATABASE_NAME = "Contact";
 
     private static final int DB_VERSION =1;
 
@@ -92,3 +92,4 @@ public class MyDBhelper extends SQLiteOpenHelper {
         db.delete(TABLE_CONTACT, KEY_ID +" = ? ", new String[]{String.valueOf(id)} );
     }
 }
+
